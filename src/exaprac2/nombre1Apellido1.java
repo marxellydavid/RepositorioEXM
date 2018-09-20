@@ -20,7 +20,8 @@ public class nombre1Apellido1 {
         int cantidad = 0;
         int cp;//cantidad de productos
         double pv = 0; //precio con iva
-        double vt = 0; //venta total
+        double vt = 0;//venta total
+        int acumulador;
         
         opcion = Integer.parseInt(JOptionPane.showInputDialog(null, "Buenas tardes\n"
                 + "Escoga la opcion 1 para agregar un producto\n"
@@ -58,11 +59,18 @@ public class nombre1Apellido1 {
             
             }//fin de for que recoge la cantidad de productos, junto a su nombre, cantidad y precio
             
+            for(int i = 0; i<cp; i++){
+                
+                System.out.println("LISTADO DE PRODUCTOS REGISTRADOS");
+                System.out.println("Los articulos ingresados fueron: ");
+                System.out.println(producto);   
+            }
+            
             break;
             
             //caso de calcular total
             case 2:
-                
+             JOptionPane.showMessageDialog(null, "Lo siento, área no disponible, en matenimiento: ");
             /*//tratando de imprimir el listado de productos
             for(int i = 0; i<cp; i++)
                 {
