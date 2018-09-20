@@ -49,9 +49,9 @@ public class nombre1Apellido1 {
             //tratando de imprimir el listado de productos
             JOptionPane.showMessageDialog(null,"Los productos ingresados son: ");
             JOptionPane.showMessageDialog(null, producto);
-            JOptionPane.showMessageDialog(null, "Las cantidades han sido: ");
+            JOptionPane.showMessageDialog(null, "La cantidad de ese producto ha sido: ");
             JOptionPane.showMessageDialog(null, cantidad);
-            JOptionPane.showMessageDialog(null, "El precio unitario de producto con IVA es: ");
+            JOptionPane.showMessageDialog(null, "El precio unitario con IVA del producto es: ");
             JOptionPane.showMessageDialog(null, precio);
             JOptionPane.showMessageDialog(null, "El total de la venta es: ");
             JOptionPane.showMessageDialog(null, vt);
@@ -76,7 +76,7 @@ public class nombre1Apellido1 {
             
             //caso de salida
             case 3:
-            System.out.println("Nos vemos");
+            JOptionPane.showMessageDialog(null, "Nos vemos hasta la próxima Profe Guille");
             default:
         }
     }
