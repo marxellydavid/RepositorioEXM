@@ -47,8 +47,9 @@ public class nombre1Apellido1 {
             JOptionPane.showMessageDialog(null, producto);
             JOptionPane.showMessageDialog(null, "Las cantidades han sido: ");
             JOptionPane.showMessageDialog(null, cantidad);
-            JOptionPane.showMessageDialog(null, "El precio del producto con IVA es: ");
+            JOptionPane.showMessageDialog(null, "El precio unitario de producto con IVA es: ");
             JOptionPane.showMessageDialog(null, precio);
+            JOptionPane.showMessageDialog(null, "El total de la venta es: ");
             
             }//fin de for que recoge la cantidad de productos, junto a su nombre, cantidad y precio
             
