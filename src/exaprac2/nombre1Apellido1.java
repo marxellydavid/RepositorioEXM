@@ -20,6 +20,7 @@ public class nombre1Apellido1 {
         int cantidad = 0;
         int cp;//cantidad de productos
         double pv = 0; //precio con iva
+        double vt = 0; //venta total
         
         opcion = Integer.parseInt(JOptionPane.showInputDialog(null, "Buenas tardes\n"
                 + "Escoga la opcion 1 para agregar un producto\n"
@@ -42,6 +43,9 @@ public class nombre1Apellido1 {
             pv = precio * 0.13;
             precio = (precio + pv);
             
+            //añadiendo venta total de los productos
+            vt = precio*cantidad;
+            
             //tratando de imprimir el listado de productos
             JOptionPane.showMessageDialog(null,"Los productos ingresados son: ");
             JOptionPane.showMessageDialog(null, producto);
@@ -50,6 +54,7 @@ public class nombre1Apellido1 {
             JOptionPane.showMessageDialog(null, "El precio unitario de producto con IVA es: ");
             JOptionPane.showMessageDialog(null, precio);
             JOptionPane.showMessageDialog(null, "El total de la venta es: ");
+            JOptionPane.showMessageDialog(null, vt);
             
             }//fin de for que recoge la cantidad de productos, junto a su nombre, cantidad y precio
             
